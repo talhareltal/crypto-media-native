@@ -13,22 +13,27 @@ Know who you're pitching. Curated X lists:
 
 ## The test
 
-Show an agent this:
+Most crypto press releases look something like this (made-up companies):
 
 > "Halcyon Protocol announces strategic partnership with Driftwood Labs to accelerate Web3 adoption."
 
-A media-native agent asks: did Driftwood announce it too? Did money move? Is anything live? Who outside these two companies cares?
+Sounds like news. Usually it isn't. Before a reporter covers it, they check four things:
 
-An agent that polishes the headline and suggests a stronger quote is not media-native.
+- **Did the other company announce it too?** If only one side is talking, it might not be a real deal.
+- **Did anything actually happen?** Money changed hands, a contract was signed, a product people can use today.
+- **Can anyone check it?** A link, a number, a public record.
+- **Does anyone outside these two companies care?**
+
+Most AI tools skip all that and just make the headline sound better. This skill makes Claude ask first.
 
 ## What you can ask it
 
+- "Here are our Q1 updates. Which deserve a release?"
+- "Why did nobody cover our mainnet launch?"
 - "We're announcing a partnership next week. Is it news?"
 - "Here's our funding release. What will a reporter ask?"
 - "Exclusive or embargo for our Series A?"
 - "Our agency says we got 80 placements. How many are real?"
-- "Here are our Q1 updates. Which deserve a release?"
-- "Why did nobody cover our mainnet launch?"
 - "We just got exploited. What do we say?"
 
 ## What you get back
@@ -70,7 +75,7 @@ git clone https://github.com/talhareltal/crypto-media-native ~/.claude/skills/cr
 
 **Other agents:** copy the folder into your agent's skills directory (`.agents/skills/` for the cross-agent standard).
 
-## Maxims
+## Rules of thumb
 
 - A partnership the partner didn't announce is a press release, not a partnership.
 - "Strategic investment" with no number is a rumor you paid to distribute.
@@ -88,7 +93,7 @@ git clone https://github.com/talhareltal/crypto-media-native ~/.claude/skills/cr
 
 ## About
 
-Built by Tal Shmuel Harel, co-founder of Chainstory. Yes, a PR person wrote a skill that tells you when not to do PR. That's the point.
+Built by [Tal Shmuel Harel](https://x.com/TalHarelTal), co-founder of Chainstory. Yes, a PR person wrote a skill that tells you when not to do PR. That's the point.
 
 All examples are invented. Any resemblance to a real release is a coincidence, and probably a sign that release needed this skill.
 
