@@ -91,6 +91,10 @@ git clone https://github.com/talhareltal/crypto-media-native ~/.claude/skills/cr
 - Name outlets as pay-to-play. It shows you the signals.
 - Help dress paid content up as earned coverage.
 
+## Also
+
+For paid influence (KOLs, sponsored posts, influencer deals): [crypto-kol-native](https://github.com/talhareltal/crypto-kol-native).
+
 ## About
 
 Built by [Tal Shmuel Harel](https://x.com/TalHarelTal), co-founder of Chainstory. Yes, a PR person wrote a skill that tells you when not to do PR. That's the point.
